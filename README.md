@@ -105,3 +105,57 @@ cd spotify-hit-analysis
 pip install -r requirements.txt
 
 jupyter notebook
+
+
+```
+
+## Usage
+
+Instructions for using the project:
+
+1. Open the main notebook (`spotify_hit_analysis-2.ipynb`)  
+2. Run each cell sequentially to reproduce the analysis  
+
+The notebook contains all data exploration, visualizations, and insights.
+
+---
+
+## Analysis & Visualizations
+
+Key findings from the analysis include:
+- Streaming success is highly concentrated among a small number of songs.
+- Engagement metrics such as likes, views, and comments strongly correlate with streaming performance.
+- Hit songs tend to have lower instrumentalness, suggesting that vocal-driven songs dominate popular streaming content.
+- Slight differences in danceability and loudness were observed between hit and non-hit songs.
+- Several visualizations were created to explore these patterns, including:
+- Stream distribution histograms
+- Boxplots comparing hit vs non-hit songs
+- Scatter plots showing the relationship between likes and streams
+- Correlation analysis
+
+---
+
+## Conclusion
+
+This project demonstrates how exploratory data analysis can reveal patterns in streaming music performance.
+
+While some musical attributes show small differences between hit and non-hit songs, audience engagement metrics appear to play a much larger role in streaming success.
+
+Future work could incorporate additional variables such as artist popularity, playlist placement, and marketing activity. 
+
+---
+
+## Credits
+
+Dataset Source:
+https://www.gigasheet.com/sample-data/spotify-dataset
+
+---
+
+## License
+
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
+
+---
+
+<p align="center"><strong>Thanks for visiting! 🚀</strong></p>
